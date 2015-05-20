@@ -1,0 +1,850 @@
+html {
+    /* Original image below sourced for educational purposes: http://galleryhip.com */
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+h1, h2, .tf {
+    font-family: 'Economica', sans-serif;
+}
+
+.h2 {
+    text-align: left;
+    padding-left: 40px;
+    font-size: 30px;
+    clear: right;
+    display: block;
+}
+
+.bigyellow {
+    font-size: 45px;
+    color: #e2b476;
+}
+
+.yellow, .book {
+    color: #dea353;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Economica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited {
+    display: block;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+    padding-left: 10px;
+}
+
+#main {
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head{
+    height: 150px;
+    margin-bottom:5px;
+}
+
+#head img {
+    float: right;
+}
+
+#head img#logo {
+    float: left;
+    padding-top: 35px;
+}
+
+#nav{
+    height: 40px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #3e3e3e;
+    clear: both;
+}
+
+#nav a {
+    color: #b8b5a6;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#nav a:hover, #nav a.selected, #index, #booking, #contact, #movies {
+    color: #e2b476;
+}
+
+.selected {
+    font-weight: bold;
+    opacity: 1.0;
+}
+
+#slide {
+    height: 250px;
+    line-height: 30px;
+    background-color: #F5F5F5;
+    margin-bottom:10px;
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+
+#content{
+    width: 990px;
+    min-height: 300px;
+    float:left;
+    margin-bottom: 10px;
+    background-color: #f5fdff;
+    text-align: left;
+    padding: 5px;
+}
+
+#footer {
+    height: 50px;
+    clear: both;
+    background-color: #3e3e3e;
+}
+
+#footer h5 {
+    color: #b8b5a6;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#footer a {
+    float: right;
+}
+
+#home-table  {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+#home-table  .right-cont {
+    text-align: right;
+}
+
+#home-table .left-right {
+    text-align: left;
+}
+
+#home-table td {
+    padding-top: 40px;
+}
+
+#home-table {
+    height: 150px;
+}
+
+#home-table  .img {
+    width: 250px;
+}
+
+#new {
+    margin-top: 50px;
+}
+
+#content h1 {
+    margin-top: 20px;
+}
+
+.movie {
+    margin: 5px;
+    /*border: solid 1px dimgrey;*/
+    float: left;
+    width: 235px;
+    min-height: 500px;
+    cursor: pointer;
+}
+
+.img {
+    width: 235px;
+    max-height: 345px;
+    overflow: hidden;
+}
+
+.rating {
+    width: 130px;
+    position: relative;
+    top: -54px;
+    left: 115px;
+    z-index: 50000;
+    opacity: 0.8;
+}
+
+.poster {
+    width: 235px;
+}
+
+.description {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.tf, .lb {
+    display: block;
+    clear: both;
+}
+
+.tf {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.lb {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+video {
+    width: 1000px;
+    position: relative;
+    left: -5px;
+}
+
+.back {
+    width: 200px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+
+.left{
+    margin: auto;
+    width: 900px;
+    min-height: 200px;
+    font-size: 18px;
+}
+
+h5 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.label {
+    width: 100px;
+    clear: left;
+    margin-bottom: 5px;
+    text-align: left;
+    color: dimgrey;
+}
+
+.label, .cont {
+    display: block;
+    float: left;
+    font-size: 16px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.cont select {
+    width: 150px;
+}
+
+.bigyellow img {
+    position: relative;
+    top: 10px;
+}
+
+.left select {
+    font-size: 16px;
+}
+
+.left button {
+    font-size: 24px;
+    display: block;
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.center {
+    margin: auto;
+}
+
+#select-ticket {
+    width: 98%;
+    font-size: 16px;
+}
+
+.detail {
+    width: 475px;
+    margin-bottom: 20px;
+}
+
+.tk-l {
+    clear: left;
+    width: 220px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.tk-bt {
+    display: block;
+    clear: both;
+    width: 475px;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.tk-ip {
+    width: 50px;
+}
+
+.tk-r {
+    width: 130px;
+    margin-left: 10px;
+    clear: right;
+    text-align: right;
+}
+
+.tk-l, .tk-ip, .tk-r {
+    display: block;
+    float: left;
+    margin: 7px 0px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#select {
+    width: 800px;
+    min-height: 200px;
+    border: solid 1px #b8b5a6;
+    display: block;
+    clear: both;
+    padding: 10px;
+    margin: auto;
+}
+
+#screen {
+    width: 800px;
+    height: 30px;
+    background-color: #ffe2bc;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    border: solid 1px coral;
+}
+
+#rowA, #rowB, #rowC, #rowD, #rowE, #rowF, #rowG, #rowH {
+    display: block;
+    clear: both;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -4px;
+    width: 800px;
+    height: 30px;
+}
+
+.seat, .mid {
+    font-size: 12px;
+    cursor: pointer;
+    padding-top: 3px;
+    float: left;
+    background-color: #e5faff;
+    border: solid 1px cornflowerblue;
+}
+
+.seat {
+    width: 47px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+.mid {
+    width: 47px;
+    height: 20px;
+    margin-left: 36px;
+    margin-right: 28px;
+}
+
+.none-display {
+    display: none;
+}
+
+#cart-page {
+    width: 969px;
+    font-size: 16px;
+    /*border: solid 1px dimgrey;*/
+}
+
+.cart-movie {
+    display: flex;
+    width: 969px;
+    border: solid 1px coral;
+    background-color: #ffffff;
+    padding: 10px;
+    /*margin: 10px;*/
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.movie-title {
+    font-size: 24px;
+    color: darkorange;
+}
+
+.movie-left {
+    float: left;
+    width: 270px;
+}
+
+.movie-left img {
+    width: 250px;
+    height: 250px;
+}
+
+.movie-right {
+    float: left;
+    width: 667px;
+    /*border: solid 1px dimgrey;*/
+    clear: right;
+}
+
+.movie-table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    background-color: white;
+}
+
+.movie-table, .movie-table th, .movie-table td {
+    border: 1px solid #e2b476;
+}
+
+.movie-table th {
+    background-color: #ffe2bc;
+    color: #4d4d4d;
+}
+
+.movie-table td {
+    width: 105px;
+    max-width: 150px;
+    height: 40px;
+}
+
+.movie-table .odd {
+    background-color: #fff6eb;
+}
+
+.movie-remove {
+    margin-top: 6px;
+    font-style: italic;
+    cursor: pointer;
+    text-align: right;
+}
+
+.movie-remove:hover {
+    text-decoration: underline;
+}
+
+.cart-detail {
+    width: 949px;
+    margin: auto;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.cart-detail .grand {
+    font-weight: bold;
+    color: darkorange;
+}
+
+.seat-selected {
+    background-color: green;
+    color: white;
+}
+
+.bgg {
+    font-size: 20px;
+    text-align: left;
+    color: coral;
+}
+
+#btSeat, #btCart {
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 4px;
+}
+
+#btSeat {
+    margin-right: 15px;
+}
+
+.whole {
+    width: 150px;
+    display: flex;
+    clear: both;
+}
+
+#ticket-list {
+    padding-left: 20px;
+}
+
+#st-content {
+    display: flex;
+    margin: auto;
+    min-height: 530px;
+}
+
+#st-left, #st-right {
+    width: 468px;
+    min-height: 300px;
+    border: 1px solid darkgrey;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#st-left {
+    float: left;
+    margin-right: 10px;
+}
+
+#st-right {
+    float: left;
+    padding-top: 10px;
+}
+
+#st-screen {
+    float: right;
+    width: 408px;
+    background-color: lightgrey;
+    color: dimgrey;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+    clear: both;
+    margin-right: 6px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    border: solid 1px grey;
+}
+
+#st-right .row {
+    float: right;
+    clear: both;
+    width: 92%;
+    height: 35px;
+}
+
+#st-right .cell {
+    color: darkseagreen;
+    height: 22px;
+    width: 26px;
+    margin: 2px;
+    padding-top: 3px;
+    float: left;
+    text-align: center;
+    outline: none;
+    font-size: 13px;
+}
+
+#st-right .seat {
+    border: none;
+    color: dimgrey;
+    border-radius: 5px;
+}
+
+#st-right .rowno {
+    margin-left: -25px;
+    background-color: oldlace;
+    border: solid 1px lightgrey;
+    color: coral;
+}
+
+#st-right .avail {
+    background-color: lightgreen;
+
+    cursor: pointer;
+}
+
+#st-right .selected {
+    background-color: darkgreen;
+    color: #ffffff;
+
+    cursor: pointer;
+}
+
+#st-right .na {
+    background-color: dimgrey;
+    color: #e5faff;
+    cursor: not-allowed;
+
+}
+
+#st-desc {
+    float: right;
+    width: 408px;
+    height: 30px;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+    clear: both;
+    margin-right: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: solid 1px grey;
+}
+
+.seat-desc {
+    float: left;
+    clear: right;
+    padding-top: 4px;
+    margin-left: 10px;
+}
+
+.seat-desc-left {
+    margin-right: 55px;
+}
+
+.default-cur {
+    cursor: default;
+}
+
+.seat-selected, .remain-seat {
+    float:left;
+    width:50px;
+    height:25px;
+    border:1px solid #d3d3d3;
+    background:#f7f7f7;
+    color: dimgrey;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-top: 3px;
+}
+
+.seats-selected {
+    display: block;
+    width: 350px;
+    height: auto;
+    float: left;
+}
+
+#st-select-seat {
+    width: 97%;
+    height: 50px;
+    margin: auto;
+}
+
+#remaining-seats {
+    width: 340px;
+    height: auto;
+    text-align: left;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.remain-seat {
+    width: 170px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+
+.bt-disable {
+    background-color: #d3d3d3;
+    border: solid 1px dimgrey;
+    cursor: not-allowed;
+}
+
+.bt-disable:hover {
+    background-color: #d3d3d3;
+    border: solid 1px dimgrey;
+    cursor: not-allowed;
+}
+
+.button {
+    float: right;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 30px;
+    padding-top: 3px;
+    text-align: center;
+    border: solid 1px coral;
+    background-color: floralwhite;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    border: solid 1px coral;
+    background-color: darkorange;
+    color: white;
+}
+
+#co-content {
+    width: 100%;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.co-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#co-form label {
+    clear: left;
+    display: block;
+    width: 150px;
+    float: left;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#co-form input {
+    display: block;
+    float: left;
+    clear: right;
+    height: 24px;
+    margin-top: 8px;
+    border: solid 1px darkgrey;
+    border-radius: 5px;
+    width: 250px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#co-form .button {
+    width: 162px;
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    margin-left: 250px;
+    height: 30px;
+}
+.schedul {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+.schedul, .schedul th, .schedul td {
+    border: 1px solid #e2b476;
+}
+
+.schedul th {
+    background-color: #ffe2bc;
+    color: #4d4d4d;
+}
+
+.schedul td {
+    width: 105px;
+    height: 40px;
+}
+
+.schedul td.yell {
+    background-color: #fffe9e;
+}
+
+.schedul td.red {
+    background-color: #ffac9e;
+}
+
+.schedul td.green {
+    background-color: #9effa7;
+}
+
+.schedul td.blue {
+    background-color: #9ee0ff;
+}
+
+.schedul .list {
+    width: 200px;
+    text-align: left;
+}
+
+.schedul .tt {
+    text-align: center;
+}
+
+.schedul .row {
+    width: 320px;
+}
+
+.schedul .odd {
+    background-color: #fff6eb;
+}
+
+.schedule-mob {
+    display: none;
+}
+
+#ct-content {
+    width: 500px;
+    margin: auto;
+}
+
+#ct-content #ct-email {
+    margin-bottom: 15px;
+}
+
+#ct-subject {
+    margin-top: -2px;
+}
+
+#ct-select {
+    width: 263px;
+}
+
+input {
+    border: solid 1px darkgrey;
+    border-radius: 5px;
+    height: 20px;
+    padding-left: 5px;
+}
+
+.vc-err, .vc-ok {
+    font-size: 12px;
+}
+
+.vc-err {
+    color: red;
+}
+
+.vc-ok {
+    color: darkgreen;
+}

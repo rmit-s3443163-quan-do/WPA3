@@ -1,0 +1,465 @@
+html {
+    /* Original image below sourced for educational purposes: http://galleryhip.com */
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+h1, h2, .title {
+    font-family: 'Economica', sans-serif;
+}
+
+h2 {
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.bigyellow {
+    font-size: 45px;
+    color: #e2b476;
+}
+
+.yellow, .book {
+    color: #dea353;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Economica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited {
+    display: block;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+    padding-left: 10px;
+}
+
+#main {
+    width: 500px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head{
+    width: 500px;
+    height: 150px;
+    margin-bottom:5px;
+}
+
+#head img {
+	float: right;
+}
+
+#head img#logo {
+    float: left;
+    padding-top: 35px;
+}
+
+#nav{
+    font-size: 24px;
+    height: 47px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #3e3e3e;
+    clear: both;
+}
+
+#nav a {
+	color: #b8b5a6;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#nav a:hover, #nav a.selected, #index, #booking, #contact, #movies {
+	color: #e2b476;
+}
+
+.selected {
+    font-weight: bold;
+    opacity: 1.0;
+}
+
+#slide {
+	height: 250px;
+    line-height: 30px;
+    background-color: #F5F5F5;
+    margin-bottom:10px;
+    clear: both;
+}
+
+#content{
+    width: 490px;
+    min-height: 300px;
+    float:left;
+    margin-bottom: 10px;
+    background-color: #f5fdff;
+	text-align: center;
+	padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#home-table  {
+	width: 100%;
+	margin: auto;
+	padding: 30px;
+}
+
+#home-table  .right-cont {
+    text-align: right;
+}
+
+#home-table .left-right {
+    text-align: left;
+}
+
+#home-table td {
+    padding-top: 40px;
+}
+
+#home-table {
+	height: 150px;
+}
+
+#home-table  .img {
+	width: 150px;
+}
+
+#new {
+	margin-top: 10px;
+}
+
+#content h1 {
+	margin-top: 20px;
+}
+
+#contactform label{
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+#contactform div{
+    width: 400px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input#email, textarea, #subject {
+    width: 150px;
+    height: 30px;
+}
+
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
+
+.ok {
+    display: none;
+    margin-left: 10px;
+}
+
+.err {
+    color: red;
+    margin-left: 10px;
+}
+
+input.invalid, textarea.invalid{
+    border: 1px solid red;
+}
+
+input.valid, textarea.valid{
+    border: 1px solid green;
+}
+
+#footer {
+    height: 50px;
+    clear: both;
+    background-color: #3e3e3e;
+}
+
+#footer h5 {
+	color: #b8b5a6;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#footer a {
+    float: right;
+}
+
+#movie {
+    text-align: left;
+    width: auto;
+    min-height: 320px;
+}
+
+.mv {
+    float: left;
+    width: 230px;
+    min-height: 300px;
+    padding: 10px 10px;
+    /*border: 1px solid red;*/
+    opacity: 0.9;
+    /*background-color: red;*/
+}
+
+.mv:hover {
+    background-color: #e5faff;
+    opacity: 1;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.book {
+    font-size: 24px;
+    font-family: 'Economica', sans-serif;
+    padding-top: 10px;
+    font-weight: normal;
+}
+
+.book:hover {
+    font-weight: bold;
+}
+
+.book-content {
+    display: none;
+    text-align: left;
+    width: 965px;
+    /*border: 1px solid red;*/
+    min-height: 300px;
+    clear: left;
+    padding: 30px 17px;
+}
+
+#bookform label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+#bookform div{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.brief {
+    max-height: 40px;
+    overflow: hidden;
+    width: 220px;
+}
+
+.lb {
+    width: 250px;
+    display: block;
+    float: left;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.leftmv {
+    float: left;
+    width: 230px;
+    cursor: pointer;
+    /*border: 1px solid red;*/
+}
+
+.rightmv {
+    float: left;
+    width: 229px;
+    /*border: 1px solid red;*/
+    margin-left: 20px;
+}
+
+.tk-l, .tk-ip, .tk-r {
+    display: block;
+    float: left;
+    margin: 7px 0px;
+}
+
+.tk-r {
+    text-align: right;
+}
+
+.tk-l {
+    clear: left;
+    width: 180px;
+    margin-left: 45px;
+    margin-right: 20px;
+}
+
+.tk-ip {
+    width: 50px;
+    padding-left: 5px;
+    margin-right: 50px;
+}
+
+.tk-r {
+    width: auto;
+    margin-left: 10px;
+    clear: right;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.invi {
+    display: none;
+}
+
+.book {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 15px;
+
+    cursor: pointer;
+}
+
+.mob {
+    display: none;
+}
+
+.schedul {
+    display: none;
+}
+
+.schedule-mob {
+    display: block;
+    font-size: 18px;
+    margin: auto;
+    text-align: left;
+    width: 400px;
+}
+
+.pricing {
+    display: block;
+    width: 90%;
+}
+
+#st-content {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#st-left, #st-right {
+    min-width: 468px;
+    min-height: 300px;
+    border: 1px solid darkgrey;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#st-left {
+    float: left;
+    margin-right: 10px;
+}
+
+#st-right {
+    float: left;
+}
+
+#st-desc {
+
+}
+
+video {
+    width: 500px;
+}
+
+div.bigyellow.tit {
+    width: 500px;
+    text-align: left;
+    font-size: 25px;
+}
+
+div.description {
+    padding: 5px;
+    width: 480px;
+    font-size: 14px;
+}
+
+#bt-buy-ticket {
+    float: left;
+    margin-left: 85px;
+    margin-top: 2px;
+    height: 26px;
+    font-size: 16px;
+}
+
+input, select {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#ticket-list {
+    min-height: 480px;
+}
+
+.cart-movie {
+    width: 468px;
+}
+
+.movie-left {
+    display: none;
+}
+
+.cart-detail {
+    width: 490px;
+    margin: 0;
+}
+#check-out, #empty-cart {
+    width: 100px;
+    height: 24px;
+    font-size: 14px;
+    margin: 0;
+}
+#co-content {
+    margin-left: 0;
+}
+#ct-select {
+    margin-left: -89px;
+}
+#co-form label#ct-subject {
+    margin-top: 5px;
+}
+#cart-page {
+    width: 496px;
+}
+.movie-title {
+    text-align: left;
+}
+.movie-session {
+    text-align: left;
+}

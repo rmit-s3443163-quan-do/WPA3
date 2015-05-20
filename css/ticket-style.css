@@ -1,0 +1,96 @@
+body {
+    background-color: #d3d3d3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#tic-content {
+    width: 400px;
+    min-height: 200px;
+    margin: auto;
+    border: solid 1px dimgrey;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.whole {
+    width: 400px;
+    display: block;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.left {
+    width: 190px;
+    display: block;
+    float: left;
+    padding-left: 10px;
+}
+
+.right {
+    width: 190px;
+    display: block;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    clear:right;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.panel {
+    clear: both;
+    display: inline-flex;
+    border-bottom: solid 1px dimgrey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 400px;
+}
+
+.session {
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: coral;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.space {
+    width: 380px;
+    margin-left: 10px;
+}
+
+.space .left, .space .right {
+    width: 180px;
+}
+
+.dotted {
+    border-top: dotted 1px #d3d3d3;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.grand-total {
+    color: coral;
+    font-size: 18px;
+}
+
+.ticket {
+}
+
+.light-coral {
+    color: lightcoral;
+}
