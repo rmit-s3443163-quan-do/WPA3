@@ -13,6 +13,16 @@ body {
     border-radius: 5px;
 }
 
+.ticket-back {
+    width: 380px;
+    margin: auto;
+    border: solid 1px dimgrey;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
 .whole {
     width: 400px;
     display: block;
@@ -88,9 +98,16 @@ h3 {
     font-size: 18px;
 }
 
-.ticket {
-}
-
 .light-coral {
     color: lightcoral;
+}
+
+a, a:visited {
+    display: block;
+    text-decoration: none;
+}
+
+.back:hover {
+    text-decoration: underline;
+    font-size: 16px;
 }

@@ -28,7 +28,14 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 </head>
 <body>
+    <div class="center ticket-back">
+        <a class="back" href="index.php?p=movies">
+            < Back to <span class="yellow">Movies</span> page
+        </a>
+    </div>
+
     <div id="tic-content" class="center">
+
         <?=$html?>
     </div>
 </body>
