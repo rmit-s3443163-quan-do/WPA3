@@ -7,8 +7,6 @@
  */
 
     require_once('c/TicketController.php');
-    session_start();
-
     $head = 'v/head.php';
 
     $b = true;
@@ -34,16 +32,12 @@
         <a class="back" href="index.php?p=movies">
             < Back to <span class="yellow">Movies</span> page
         </a>
-        <br/>
-        Please show this webpage or print out bring to us when purchasing tickets.
     </div>
 
     <div id="tic-content" class="center">
 
         <?=$html?>
     </div>
-
-    <?php include_once('/home/eh1/e54061/public_html/wp/debug.php');?>
 </body>
 
 </html>

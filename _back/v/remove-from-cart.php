@@ -12,9 +12,6 @@
 
         $cart->removeScreening($_GET['id'],$_GET['time']);
 
-        if ($cart->getSize()==0)
-            session_unset();
-        else
-            $_SESSION['cart'] = serialize($cart);
+        $_SESSION['cart'] = serialize($cart);
     }
 ?>

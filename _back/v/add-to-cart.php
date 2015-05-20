@@ -15,6 +15,8 @@
 
     $sess = $_POST['seats'];
 
+//    echo $sess;
+
     $quan = (int)$_POST['SA'];
     $seat = Seat::getSeatFromString('SA',$quan,$sess);
     $scr->addSeat(new Seat('SA',$quan,$seat,$_POST['session']));
