@@ -84,8 +84,8 @@
                 case 'Wednesday':
                     if (strcmp($time,'1pm')==0)
                         return $p1[$id];
-                    else
-                        return $p2[$id];
+                else
+                    return $p2[$id];
                 break;
                     case 'Thursday':
                     case 'Friday':

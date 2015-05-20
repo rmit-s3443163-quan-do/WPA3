@@ -43,8 +43,9 @@ class TicketController {
 
                 }
             }
+            return 'null';
         } else {
-            echo 'null';
+            return 'null';
         }
     }
 

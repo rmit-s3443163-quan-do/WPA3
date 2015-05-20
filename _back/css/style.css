@@ -175,7 +175,14 @@ li {
     width: 235px;
     min-height: 500px;
     cursor: pointer;
+    opacity: 0.9;
 }
+
+.movie:hover {
+    background-color: #e5faff;
+    opacity: 1;
+}
+
 
 .img {
     width: 235px;

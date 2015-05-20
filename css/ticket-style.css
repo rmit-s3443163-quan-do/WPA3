@@ -110,3 +110,50 @@ a, a:visited {
 .back:hover {
     text-decoration: underline;
 }
+
+form label {
+    clear: left;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+form input {
+    display: block;
+    float: left;
+    clear: right;
+    height: 24px;
+    margin-top: 8px;
+    border: solid 1px darkgrey;
+    border-radius: 5px;
+    width: 250px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+form .button {
+    width: 162px;
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    height: 30px;
+    border: solid 1px coral;
+    background-color: floralwhite;
+}
+
+form .button:hover {
+    border: solid 1px coral;
+    background-color: darkorange;
+    color: white;
+}
+
+#ip-code {
+    margin-bottom: 20px;
+}
+
+.ticket-check {
+    height: 220px;
+}
